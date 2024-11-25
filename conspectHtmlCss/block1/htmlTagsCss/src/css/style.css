@@ -3,7 +3,21 @@
     свойство: значение;
     свойство: значение;
 } */
- h1 {
-    color: blue;
-    font-size: large;
+  p mark {
+    color: rgb(255,0,0); /* см справочник CSS color code & names. Формат rgb, RRGGBB, rgba - где А - прозрачность*/
+ } 
+ h1, h2, h3 {
+   text-align: center;
  }
+ .first { /* точка фёст - обозначение класса, изменится именно то место, кот. указано в НТМЛ, а не весь подобный текст */
+    color: blue;
+    font-size: 16px;
+    
+ }
+ #second {
+    color: pink;
+ }
+    /* second прописали в коде */
+  .marked {
+    color: yellow;
+  }
